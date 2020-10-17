@@ -1,0 +1,31 @@
+{
+  "name": "fullstack_vue_express",
+  "version": "1.0.0",
+  "description": "Full stack vue and express app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/garynye/fullstack_vue_express.git"
+  },
+  "author": "Gary Nye",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/garynye/fullstack_vue_express/issues"
+  },
+  "homepage": "https://github.com/garynye/fullstack_vue_express#readme",
+  "dependencies": {
+    "@types/cors": "^2.8.8",
+    "@types/mongodb": "^3.5.28",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongodb": "^3.6.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.5"
+  }
+}
